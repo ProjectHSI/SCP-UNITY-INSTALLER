@@ -1,0 +1,19 @@
+{
+  "name": "scpunityjavascriptautoinstaller",
+  "version": "0.0.1",
+  "description": "Installs the latest public release of SCP Unity. The script will auto-update itself to get the latest version.",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ProjectHSI/SCP-UNITY-INSTALLER.git"
+  },
+  "author": "[Project HSI]",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/ProjectHSI/SCP-UNITY-INSTALLER/issues"
+  },
+  "homepage": "https://github.com/ProjectHSI/SCP-UNITY-INSTALLER#readme"
+}
