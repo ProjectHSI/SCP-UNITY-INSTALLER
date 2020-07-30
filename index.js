@@ -10,6 +10,7 @@ const fs = require('fs')
       const response = await fetch('https://raw.githubusercontent.com/ProjectHSI/SCP-UNITY-INSTALLER/master/index.js');
     	const text = await response.text();
       fs.writeFileSync("./index.js", text)
+      fs.writeFileSync("./version.json", json)
       console.log("Please restart the program. I will exit for you.");
       process.exit(0)
     })()
