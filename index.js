@@ -13,6 +13,6 @@ var UpdateScript = async () => {
       console.log("Please restart the program. I will exit for you.");
       process.exit(0)
   }
-})
+}
 UpdateScript()
 //This is to know if my code can update
