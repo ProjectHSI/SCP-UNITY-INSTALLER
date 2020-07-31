@@ -6,12 +6,11 @@ var UpdateScript = async () => {
 	if (fs.readFileSync('./version.json') == json) {
     console.log("Your version of this software is update to date!");
   } else {
-    var response = fetch('https://raw.githubusercontent.com/ProjectHSI/SCP-UNITY-INSTALLER/master/index.js');
+    var response2 = fetch('https://raw.githubusercontent.com/ProjectHSI/SCP-UNITY-INSTALLER/master/index.js');
     const text = response.text();
     fs.writeFileSync("./index.js", text)
     fs.writeFileSync("./version.json", json)
     console.log("Please restart the program. I will exit for you.");
-    process.exit(0)
+		setTimeout(() => {process.exit(0)}, 5000)
   }
 }
-//This is to know if my code can update
