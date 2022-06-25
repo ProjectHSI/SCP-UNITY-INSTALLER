@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/ProjectHSI/SCP-UNITY-INSTALLER#readme",
   "dependencies": {
-    "node-fetch": "^2.6.1"
+    "node-fetch": "^2.6.7"
   }
 }
